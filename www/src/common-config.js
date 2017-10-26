@@ -1,4 +1,5 @@
 export default {
+    rootServerPassword: "HereIsThePasswordToMyServerYayMe!",
     debug: false,
     testing: false,
     apiUrl: 'http://church-api-dev2.us-east-1.elasticbeanstalk.com/',
