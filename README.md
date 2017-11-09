@@ -31,7 +31,7 @@ To set up Travis CI for your repository:
     * The `.travis.yml` file
     * The `git-assignment-tests.sh` file
 * The following git alias will make inspecting the logs much easier:
-    * Configure the alias with the following command: `git config --global alias.lp 'log --oneline --graph --all'`
+    * Configure the alias with the following command: `git config --global alias.lp 'log --oneline --graph --all --decorate'`
     * Use `git lp` to get a more useful and powerful log output. :)
 * If you get stuck with a rebase, `git rebase --abort` will let you start over.
 * If you get stuck with a merge, `git merge --abort` will clear out all the changes and let you start over.
