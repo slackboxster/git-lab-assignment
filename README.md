@@ -6,7 +6,7 @@ Create a fork of the repository in your own github account, and follow the instr
 
 # Automated Grading
 
-The assignment consists of a series of tasks. After each task, you can run the test script: "./git-assignment-tests.sh" to see if you have successfully completed that task. However, the project is also configured to allow automatically running the tests with Travis CI after each push of the `master` branch. 
+The assignment consists of a series of tasks. After each task, you can run the test script: `./git-assignment-tests.sh` to see if you have successfully completed that task. However, the project is also configured to allow automatically running the tests with Travis CI after each push of the `master` branch. 
 
 In order to receive a grade for the assignment, you will need to set up a travis-ci build for your fork, and modify the build status badge to point to your travis build.
 
